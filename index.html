@@ -12,40 +12,49 @@
     <title>La Cafe</title>
   </head>
   <body>
-    <header class="back-pic" id="#home">
       <ul class="navbar">
         <li href="#home">HOME</li>
         <li href="#about">ABOUT</li>
         <li href="#menu">MENU</li>
         <li href="#where">WHERE</li>
       </ul>
-      <h1>
+    <header class="header-pic" id="#home">
+      <p class="name">
         la <br />
         Cafe
-      </h1>
+      </p>
       <span class="hours">Open from 6am to 5pm</span>
 
       <span class="location"> 15 Adr street, 5015</span>
     </header>
-    <section class="about" id="#about">
-      <h2 class="title">ABOUT THE CAFE</h2>
+    <section id="#about" class="about" >
+      <h3 class="title">ABOUT THE CAFE</h3>
       <p class="text">
         The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit
         amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. In
-        addition to our full espresso and brew bar menu, we serve fresh
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         <br> 
+        <p class="text">
+        In addition to our full espresso and brew bar menu, we serve fresh
         made-to-order breakfast and lunch sandwiches, as well as a selection of
         sides and salads and other good stuff.
       </p>
-      <p>
-        <i
-          >"Use products from nature for what it's worth - but never too early,
-          nor too late." Fresh is the new sweet.
-          <br />
-          Chef, Coffeeist and Owner: Liam Brown</i
-        >
-      </p>
+       <br>
+       <div class="quote">
+
+         <p class="text">
+           <i
+             >"Use products from nature for what it's worth - but never too early,
+             nor too late." Fresh is the new sweet.
+              </i> 
+             </p>
+              <br> 
+              <p class="text"> <i>
+             Chef, Coffeeist and Owner: Liam Brown</i
+           >
+         </p>
+       </div>
 
       <img src="img/coffeeshop.jpg" alt="" />
       <p class="text">
@@ -53,60 +62,60 @@
       </p>
       <p class="text"><strong>Address: </strong> 15 Adr street, 5015, NY</p>
     </section>
-    <section class="menu" id="#menu">
-      <h2 class="title">THE MENU</h2>
+    <section id="#menu" class="menu">
+      <h3 class="title">THE MENU</h3>
       <div class="menu-prop">
         <a onclick="openEat()"> Eat</a>
         <a onclick="openDrink()">Drink</a>
       </div>
       <div class="eat" id="eat">
-        <h5>Bread Basket</h5>
+        <h3>Bread Basket</h3>
         <p class="text">
           Assortment of fresh baked fruit breads and muffins 5.50
         </p>
         <br />
-        <h5>Honey Almond Granola with Fruits</h5>
+        <h3>Honey Almond Granola with Fruits</h3>
         <p class="text">
           Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
         </p>
         <br />
-        <h5>Belgian Waffle</h5>
+        <h3>Belgian Waffle</h3>
         <p class="text">Vanilla flavored batter with malted flour 7.50</p>
         <br />
-        <h5>Scrambled eggs</h5>
+        <h3>Scrambled eggs</h3>
         <p class="text">
           Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
         </p>
         <br />
-        <h5>Blueberry Pancakes</h5>
+        <h3>Blueberry Pancakes</h3>
         <p class="text">With syrup, butter and lots of berries 8.50</p>
         <br />
       </div>
       <div class="drink" id="drink">
-        <h5>Coffee</h5>
+        <h3>Coffee</h3>
         <p class="text">Regular coffee 2.50</p>
         <br />
 
-        <h5>Chocolato</h5>
+        <h3>Chocolato</h3>
         <p class="text">Chocolate espresso with milk 4.50</p>
         <br />
 
-        <h5>Corretto</h5>
+        <h3>Corretto</h3>
         <p class="text">Whiskey and coffee 5.00</p>
         <br />
 
-        <h5>Iced tea</h5>
+        <h3>Iced tea</h3>
         <p class="text">Hot tea, except not hot 3.00</p>
         <br />
 
-        <h5>Soda</h5>
+        <h3>Soda</h3>
         <p class="text">Coke, Sprite, Fanta, etc. 2.50</p>
       </div>
       <img src="img/coffeehouse2.jpg" alt="" />
     </section>
-    <section class="where" id="#where">
-      <h2 class="title">WHERE TO FIND US
-      </h2>
+    <section id="#where" class="where" >
+      <h3 class="title">WHERE TO FIND US
+      </h3>
 
       <span class="text">Find us at some address at some place. </span>
       <img src="img/map.jpg" alt="" />
@@ -117,16 +126,16 @@
         criteria of them all, both look and taste.
       </p>
       <p><strong>Reserve </strong>  a table, ask for today's special or just send us a message:</p>
-      <form action="submit">
+      <form class="form" action="submit">
         <input class='input' type="text" placeholder="Name" required>
         <input class='input' type="number" placeholder="How many people" required>
-        <input  class='input' type="datetime-local" placeholder="Date and time"  value="2020-108-16T20:00" required>
+        <input class='input' type="datetime-local" placeholder="Date and time"  value="2020-108-16T20:00" required>
         <input class='input' type="text" placeholder="Message \ Special requirements" required>
         <button class="button" type="submit">SEND MESSAGE</button>
 
       </form>
     </section>
-    <footer>
+    <footer class="footer">
       <p>This was created as a HTML/CSS lesson, this tamplate is from W3schools
 <br>
         © David Gabrielian</p>
