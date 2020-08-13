@@ -59,17 +59,18 @@ h3 {
   padding: 8px 12px;
 }
 
-.navbar > li {
+.navbar > a {
   flex: 1;
   width: 25%;
   float: left;
   text-align: center;
-  list-style: none;
   cursor: pointer;
   padding: 8px;
+  text-decoration: none;
+  color: white;
 }
 
-.navbar > li:hover {
+.navbar > a:hover {
   color: #000;
   background-color: rgb(211, 211, 211);
 }
