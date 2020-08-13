@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <title>La Cafe</title>
+  </head>
+  <body>
+    <header class="back-pic" id="#home">
+      <ul class="navbar">
+        <li href="#home">HOME</li>
+        <li href="#about">ABOUT</li>
+        <li href="#menu">MENU</li>
+        <li href="#where">WHERE</li>
+      </ul>
+      <h1>
+        la <br />
+        Cafe
+      </h1>
+      <span class="hours">Open from 6am to 5pm</span>
+
+      <span class="location"> 15 Adr street, 5015</span>
+    </header>
+    <section class="about" id="#about">
+      <h2 class="title">ABOUT THE CAFE</h2>
+      <p class="text">
+        The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit
+        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. In
+        addition to our full espresso and brew bar menu, we serve fresh
+        made-to-order breakfast and lunch sandwiches, as well as a selection of
+        sides and salads and other good stuff.
+      </p>
+      <p>
+        <i
+          >"Use products from nature for what it's worth - but never too early,
+          nor too late." Fresh is the new sweet.
+          <br />
+          Chef, Coffeeist and Owner: Liam Brown</i
+        >
+      </p>
+
+      <img src="img/coffeeshop.jpg" alt="" />
+      <p class="text">
+        <strong>Opening hours: </strong> everyday from 6am to 5pm.
+      </p>
+      <p class="text"><strong>Address: </strong> 15 Adr street, 5015, NY</p>
+    </section>
+    <section class="menu" id="#menu">
+      <h2 class="title">THE MENU</h2>
+      <div class="menu-prop">
+        <a onclick="openEat()"> Eat</a>
+        <a onclick="openDrink()">Drink</a>
+      </div>
+      <div class="eat" id="eat">
+        <h5>Bread Basket</h5>
+        <p class="text">
+          Assortment of fresh baked fruit breads and muffins 5.50
+        </p>
+        <br />
+        <h5>Honey Almond Granola with Fruits</h5>
+        <p class="text">
+          Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+        </p>
+        <br />
+        <h5>Belgian Waffle</h5>
+        <p class="text">Vanilla flavored batter with malted flour 7.50</p>
+        <br />
+        <h5>Scrambled eggs</h5>
+        <p class="text">
+          Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+        </p>
+        <br />
+        <h5>Blueberry Pancakes</h5>
+        <p class="text">With syrup, butter and lots of berries 8.50</p>
+        <br />
+      </div>
+      <div class="drink" id="drink">
+        <h5>Coffee</h5>
+        <p class="text">Regular coffee 2.50</p>
+        <br />
+
+        <h5>Chocolato</h5>
+        <p class="text">Chocolate espresso with milk 4.50</p>
+        <br />
+
+        <h5>Corretto</h5>
+        <p class="text">Whiskey and coffee 5.00</p>
+        <br />
+
+        <h5>Iced tea</h5>
+        <p class="text">Hot tea, except not hot 3.00</p>
+        <br />
+
+        <h5>Soda</h5>
+        <p class="text">Coke, Sprite, Fanta, etc. 2.50</p>
+      </div>
+      <img src="img/coffeehouse2.jpg" alt="" />
+    </section>
+    <section class="where" id="#where">
+      <h2 class="title">WHERE TO FIND US
+      </h2>
+
+      <span class="text">Find us at some address at some place. </span>
+      <img src="img/map.jpg" alt="" />
+      <p class="text">
+<h4 class="title">FLY!</h4>
+        We offer full-service catering for any event, large or small. We
+        understand your needs and we will cater the food to satisfy the biggerst
+        criteria of them all, both look and taste.
+      </p>
+      <p><strong>Reserve </strong>  a table, ask for today's special or just send us a message:</p>
+      <form action="submit">
+        <input class='input' type="text" placeholder="Name" required>
+        <input class='input' type="number" placeholder="How many people" required>
+        <input  class='input' type="datetime-local" placeholder="Date and time"  value="2020-108-16T20:00" required>
+        <input class='input' type="text" placeholder="Message \ Special requirements" required>
+        <button class="button" type="submit">SEND MESSAGE</button>
+
+      </form>
+    </section>
+    <footer>
+      <p>This was created as a HTML/CSS lesson, this tamplate is from W3schools
+<br>
+        © David Gabrielian</p>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>

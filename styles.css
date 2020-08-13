@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  font-family: "Inconsolata", sans-serif;
+}
+
+html,
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  
+}
+
+h2 {
+    letter-spacing: 4px;
+}
+
+.back-pic {
+        background-position: center;
+        background-size: cover;
+        background-image: url(/img/coffeehouse.jpg);
+        min-height: 75%;
+}
+
+
+.eat {
+display: block;
+}
+
+.drink {
+display: none;
+}
