@@ -78,7 +78,7 @@ h3 {
 .header-pic {
   background-position: center;
   background-size: cover;
-  background-image: url(/img/coffeehouse.jpg);
+  background-image: url("./img/coffeehouse.jpg");
   filter: grayscale(50%);
   min-height: 80%;
 }
